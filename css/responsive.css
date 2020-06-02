@@ -1,0 +1,484 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .mian-content h3 {
+    font-size: 72px;
+  }
+
+  section#info {
+    padding: 100px 0;
+  }
+
+  .infoLine::before {
+    bottom: -100px;
+  }
+
+  section#sponsors {
+    padding: 100px 0;
+  }
+
+  .brand__line::before {
+    top: -100px;
+  }
+
+  .brand__line::after {
+    bottom: -100px;
+  }
+
+  .about-content span {
+    font-size: 13px;
+  }
+
+  .about-content h3 {
+    font-size: 36px;
+  }
+
+  p.paraGraph1 {
+    font-size: 16px;
+  }
+
+  p.paraGraph2,
+  p.paraGraph3 {
+    font-size: 13px;
+  }
+
+  .aboutBtn a {
+    padding: 12px 28px;
+  }
+
+  section#about {
+    padding: 100px 0;
+  }
+
+  section#skills {
+    padding: 100px 0 90px;
+  }
+
+  section#experience {
+    padding: 100px 0;
+  }
+
+  section#portflio {
+    padding: 100px 0;
+  }
+
+  section#service {
+    padding: 100px 0 80px;
+  }
+
+  section#teams {
+    padding: 100px 0;
+  }
+
+  section#contacts {
+    padding: 100px 0;
+  }
+
+  section#blog {
+    padding: 100px 0;
+  }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .off-canvas-menu {
+    right: -310px;
+    width: 310px;
+  }
+
+  .mian-content h3 {
+    font-size: 48px;
+  }
+
+  .fullInfo {
+    margin-bottom: 30px;
+  }
+
+  section#info {
+    padding: 100px 0 70px;
+  }
+
+  .infoLine::before {
+    bottom: -70px;
+  }
+
+  section#sponsors {
+    padding: 100px 0;
+  }
+
+  .brand__line::before {
+    top: -100px;
+  }
+
+  .brand__line::after {
+    bottom: -100px;
+  }
+
+  .about-content span {
+    font-size: 13px;
+  }
+
+  .about-content h3 {
+    font-size: 36px;
+    margin: 14px 0;
+  }
+
+  p.paraGraph1 {
+    font-size: 16px;
+  }
+
+  p.paraGraph2,
+  p.paraGraph3 {
+    font-size: 13px;
+  }
+
+  .aboutBtn a {
+    padding: 10px 20px;
+  }
+
+  .aboutBtn {
+    margin: 24px 0 0;
+  }
+
+  section#about {
+    padding: 100px 0;
+  }
+
+  section#skills {
+    padding: 100px 0 90px;
+  }
+
+  section#experience {
+    padding: 100px 0;
+  }
+
+  .experience-card {
+    padding: 20px;
+  }
+
+  .experience-card h4 {
+    font-size: 24px;
+  }
+
+  section#portflio {
+    padding: 100px 0;
+  }
+
+  section#service {
+    padding: 100px 0 80px;
+  }
+
+  section#teams {
+    padding: 100px 0;
+  }
+
+  .testimonial-content p {
+    margin: 0;
+  }
+
+  .testimonial-content h3 {
+    font-size: 24px;
+    margin: 18px 0;
+  }
+
+  .testimonial-authors {
+    margin-top: 24px;
+  }
+
+  .testimonial-authors-info h4 {
+    font-size: 18px;
+  }
+
+  .testimonial-authors-info p {
+    font-size: 13px;
+  }
+
+  section#contacts {
+    padding: 100px 0;
+  }
+
+  section#blog {
+    padding: 100px 0;
+  }
+
+  .blog-card-header span {
+    font-size: 13px;
+  }
+
+  .blog-card-content {
+    padding: 20px 15px 0;
+  }
+
+  .blog-card-content h4 {
+    font-size: 20px;
+  }
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  .off-canvas-menu {
+    right: -285px;
+    width: 285px;
+  }
+
+  .mian-content h3 {
+    font-size: 36px;
+  }
+
+  .fullInfo {
+    margin-bottom: 30px;
+  }
+
+  section#info {
+    padding: 100px 0 70px;
+  }
+
+  .infoLine::before {
+    bottom: -70px;
+  }
+
+  section#sponsors {
+    padding: 100px 0;
+  }
+
+  .brand__line::before {
+    top: -100px;
+  }
+
+  .brand__line::after {
+    bottom: -100px;
+  }
+
+  section#about {
+    padding: 100px 0;
+  }
+
+  .about-content {
+    margin-top: 30px;
+  }
+
+  .about-content h3 {
+    font-size: 48px;
+    color: #060630;
+    margin: 20px 0;
+  }
+
+  section#skills {
+    padding: 100px 0 90px;
+  }
+
+  section#experience {
+    padding: 100px 0;
+  }
+
+  .experience-card {
+    margin-bottom: 30px;
+  }
+
+  section#portflio {
+    padding: 100px 0;
+  }
+
+  section#service {
+    padding: 100px 0 80px;
+  }
+
+  section#teams {
+    padding: 100px 0 40px;
+  }
+
+  .teams-card-img img {
+    width: 100%;
+  }
+
+  .teams-card {
+    margin-bottom: 60px;
+  }
+
+  .testimonial-content {
+    margin: 30px 0;
+  }
+
+  .testimonial-content p {
+    margin: 0;
+  }
+
+  .testimonial-content h3 {
+    font-size: 24px;
+    margin: 18px 0;
+  }
+
+  .testimonial-authors {
+    margin-top: 24px;
+  }
+
+  .testimonial-authors-info h4 {
+    font-size: 18px;
+  }
+
+  .testimonial-authors-info p {
+    font-size: 13px;
+  }
+
+  section#contacts {
+    padding: 100px 0;
+  }
+
+  section#blog {
+    padding: 100px 0;
+  }
+
+  .blog-card-img img {
+    width: 100%;
+  }
+
+  .blog-card {
+    margin-bottom: 30px;
+  }
+
+  ul.top-footer-menu li a {
+    font-size: 14px;
+  }
+
+  .social,
+  .newslatter {
+    text-align: center;
+  }
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+@media (max-width: 575px) {
+
+  .off-canvas-menu {
+    right: -248px;
+    width: 248px;
+  }
+
+  .off-canvas-card-body h3 {
+    font-size: 24px;
+  }
+
+  .off-canvas-card-body p {
+    font-size: 14px;
+  }
+
+  ul.off-canvas-menu-nav li {
+    padding-right: 50px;
+  }
+
+  ul.off-canvas-menu-nav li a i {
+    right: 15px;
+  }
+
+  .mian-content h3 {
+    font-size: 30px;
+  }
+
+  .fullInfo h4 {
+    font-size: 18px;
+  }
+
+  [data-depth^="0"] {
+    display: none;
+  }
+
+  .mian-content p {
+    font-size: 24px;
+  }
+
+  .info-title h3 {
+    font-size: 36px;
+  }
+
+  .newslatter h3 {
+    font-size: 24px;
+  }
+
+  .portfolio-title h3 {
+    font-size: 36px;
+  }
+
+  .experience-title h3 {
+    font-size: 36px;
+  }
+
+  .about-content h3 {
+    font-size: 36px;
+  }
+
+  [class^="shape"] {
+    display: none;
+  }
+
+  .aboutBtn a {
+    padding: 10px 20px;
+  }
+
+  .skills-title h3 {
+    font-size: 36px;
+  }
+
+  .qualityInfo h4 {
+    font-size: 24px;
+  }
+
+  section#portflio {
+    overflow-x: hidden;
+  }
+
+  .service-main-title h3 {
+    font-size: 28px;
+  }
+
+  ul.top-footer-menu {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .newslatter-submit input {
+    width: 140px;
+  }
+
+  input[type="text"]::placeholder {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .aboutBtn a {
+    padding: 10px 10px;
+  }
+
+  .mian-content p {
+    font-size: 18px;
+  }
+
+  .mian-content h3 {
+    font-size: 22px;
+  }
+
+  .fullInfo .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .fullInfo .icon::before {
+    width: 80px;
+    height: 80px;
+  }
+
+  .fullInfo p {
+    font-size: 8px;
+  }
+
+  .fullInfo h4 {
+    font-size: 12px;
+  }
+}
